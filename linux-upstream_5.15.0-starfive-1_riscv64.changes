@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 24 Dec 2022 00:16:40 +0000
+Source: linux-upstream
+Binary: linux-headers-5.15.0-starfive linux-image-5.15.0-starfive linux-libc-dev
+Architecture: riscv64
+Version: 5.15.0-starfive-1
+Distribution: bullseye
+Urgency: low
+Maintainer: admin <admin@ip-10-0-0-6.eu-central-1.compute.internal>
+Changed-By: admin <admin@ip-10-0-0-6.eu-central-1.compute.internal>
+Description:
+ linux-headers-5.15.0-starfive - Linux kernel headers for 5.15.0-starfive on riscv64
+ linux-image-5.15.0-starfive - Linux kernel, version 5.15.0-starfive
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (5.15.0-starfive-1) bullseye; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ a2d230b3a4ebb60885ea289808b68ebfe4c1d067 7524620 linux-headers-5.15.0-starfive_5.15.0-starfive-1_riscv64.deb
+ a80b800dd303b048f864c53b7a5d6b54fac0dc5e 9987792 linux-image-5.15.0-starfive_5.15.0-starfive-1_riscv64.deb
+ f206f3e00ec1f9f68ff5b7c62b6ebe027eb6625a 1160872 linux-libc-dev_5.15.0-starfive-1_riscv64.deb
+ 3b76f6408085c967c5116f4bd95c7685dc005c78 5367 linux-upstream_5.15.0-starfive-1_riscv64.buildinfo
+Checksums-Sha256:
+ 76d7ec686e9247eb2dbdb0f050b072c0a5d0bc5b5dcacc20a3eba421d4bac802 7524620 linux-headers-5.15.0-starfive_5.15.0-starfive-1_riscv64.deb
+ eb2e67c9c62aaba4396926a43e92dd93cfe1a80f034fe67423b422bb16527815 9987792 linux-image-5.15.0-starfive_5.15.0-starfive-1_riscv64.deb
+ 97bb9b6b395b77dd05cec2d0be6be398ab56b85332dd973503df3abca17a146d 1160872 linux-libc-dev_5.15.0-starfive-1_riscv64.deb
+ 84611819045b1c13e1a0c4a8d6bab35ec341735c67edeeb793fc51f3d162b7a1 5367 linux-upstream_5.15.0-starfive-1_riscv64.buildinfo
+Files:
+ def00234ea4e97e507b4103ee1748905 7524620 kernel optional linux-headers-5.15.0-starfive_5.15.0-starfive-1_riscv64.deb
+ 302548ecf5cac323a6c34b6bba3a68b2 9987792 kernel optional linux-image-5.15.0-starfive_5.15.0-starfive-1_riscv64.deb
+ cd8ee428b3a1735aa8633b6f5caf630a 1160872 devel optional linux-libc-dev_5.15.0-starfive-1_riscv64.deb
+ 27d34342d840a1e4974bfe1239303425 5367 kernel optional linux-upstream_5.15.0-starfive-1_riscv64.buildinfo
