@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 01 Mar 2023 15:57:23 +0100
+Source: linux-upstream
+Binary: linux-headers-5.15.0 linux-image-5.15.0 linux-libc-dev
+Architecture: riscv64
+Version: 5.15.0-2
+Distribution: bullseye
+Urgency: low
+Maintainer: admin <admin@debian.tometzki.de>
+Changed-By: admin <admin@debian.tometzki.de>
+Description:
+ linux-headers-5.15.0 - Linux kernel headers for 5.15.0 on riscv64
+ linux-image-5.15.0 - Linux kernel, version 5.15.0
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (5.15.0-2) bullseye; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 66b5d1121c33cbe5b5492ea768be096ad573ec25 7471056 linux-headers-5.15.0_5.15.0-2_riscv64.deb
+ fb460f66ea5c497e8a95c9315bbf6bd105969237 10041624 linux-image-5.15.0_5.15.0-2_riscv64.deb
+ 29f24ef6aab963da41cc4deb441a15677c981bd7 1160716 linux-libc-dev_5.15.0-2_riscv64.deb
+ 0724d1501e9cf3fa0dc5bb667f0bfed48e172241 5208 linux-upstream_5.15.0-2_riscv64.buildinfo
+Checksums-Sha256:
+ 1796bca7e094fdc8f103390fcd42ec3bf4f3ba47b9b644b8da6ce36211046f50 7471056 linux-headers-5.15.0_5.15.0-2_riscv64.deb
+ 3c03997634347207f0395925dd929665a08ca2a5b76fe01ed45d16c42df7c112 10041624 linux-image-5.15.0_5.15.0-2_riscv64.deb
+ 3d5cdf722f9d2eb10254dfe02ff66fd56214a84dc1f5586479d086561e5b6fef 1160716 linux-libc-dev_5.15.0-2_riscv64.deb
+ 36aab9ffd8ebb7027676c2a0ef7ce165623f43644d78b5e8973cf3af1bb2aa41 5208 linux-upstream_5.15.0-2_riscv64.buildinfo
+Files:
+ 91ad7fcf42dcbbdf2b77a851b1123114 7471056 kernel optional linux-headers-5.15.0_5.15.0-2_riscv64.deb
+ 1e1124e58b613956d63b90232bd63326 10041624 kernel optional linux-image-5.15.0_5.15.0-2_riscv64.deb
+ c295e0722015b56f414506118ff04012 1160716 devel optional linux-libc-dev_5.15.0-2_riscv64.deb
+ 921d6b59fef4bfb4cb543acf660417e8 5208 kernel optional linux-upstream_5.15.0-2_riscv64.buildinfo
