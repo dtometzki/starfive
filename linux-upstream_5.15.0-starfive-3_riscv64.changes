@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 05 Mar 2023 16:17:44 +0100
+Source: linux-upstream
+Binary: linux-headers-5.15.0-starfive linux-image-5.15.0-starfive linux-libc-dev
+Architecture: riscv64
+Version: 5.15.0-starfive-3
+Distribution: bullseye
+Urgency: low
+Maintainer: admin <admin@debian.tometzki.de>
+Changed-By: admin <admin@debian.tometzki.de>
+Description:
+ linux-headers-5.15.0-starfive - Linux kernel headers for 5.15.0-starfive on riscv64
+ linux-image-5.15.0-starfive - Linux kernel, version 5.15.0-starfive
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (5.15.0-starfive-3) bullseye; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ dcdad015df488e9add5eae6e793d6c52d91385ca 7528536 linux-headers-5.15.0-starfive_5.15.0-starfive-3_riscv64.deb
+ 3937ae888387b460a3ccc8434b90e0be3811ef76 10008096 linux-image-5.15.0-starfive_5.15.0-starfive-3_riscv64.deb
+ 7e4bcf04c7486fb21657fd09637f476d0b3b7399 1160632 linux-libc-dev_5.15.0-starfive-3_riscv64.deb
+ dfe0fd5547543cc6018488d2888041c4e7ad996e 5370 linux-upstream_5.15.0-starfive-3_riscv64.buildinfo
+Checksums-Sha256:
+ fa87cc1203a52d6fa334e1f393f3091b764226c5ec7b855f011e3ecddfdd8715 7528536 linux-headers-5.15.0-starfive_5.15.0-starfive-3_riscv64.deb
+ 26d523327f9fe4ffed4fa92def7426289a1a27d261f205012b23e95c9be6e531 10008096 linux-image-5.15.0-starfive_5.15.0-starfive-3_riscv64.deb
+ 18ca5f48ab94285e576ab96d68cb37b5105e56547abba05dd2d64752a07f6271 1160632 linux-libc-dev_5.15.0-starfive-3_riscv64.deb
+ bb80d10a99f5546cfad05505e199d853762bb53b046a627e4848fd2cadaa771b 5370 linux-upstream_5.15.0-starfive-3_riscv64.buildinfo
+Files:
+ 6e08516335a5e0df8b745843e5067407 7528536 kernel optional linux-headers-5.15.0-starfive_5.15.0-starfive-3_riscv64.deb
+ de504b85c1b130e7cb252717c5ed303b 10008096 kernel optional linux-image-5.15.0-starfive_5.15.0-starfive-3_riscv64.deb
+ 093373da460770778f526e0bef00eb8e 1160632 devel optional linux-libc-dev_5.15.0-starfive-3_riscv64.deb
+ d4e559f8ab171809d02cb78f99922047 5370 kernel optional linux-upstream_5.15.0-starfive-3_riscv64.buildinfo
