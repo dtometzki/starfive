@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 05 Mar 2023 19:35:26 +0100
+Source: linux-upstream
+Binary: linux-headers-5.15.0-v4.2 linux-image-5.15.0-v4.2 linux-libc-dev
+Architecture: riscv64
+Version: 5.15.0-v4.2-7
+Distribution: bullseye
+Urgency: low
+Maintainer: admin <admin@debian.tometzki.de>
+Changed-By: admin <admin@debian.tometzki.de>
+Description:
+ linux-headers-5.15.0-v4.2 - Linux kernel headers for 5.15.0-v4.2 on riscv64
+ linux-image-5.15.0-v4.2 - Linux kernel, version 5.15.0-v4.2
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (5.15.0-v4.2-7) bullseye; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ ccde08f972b2b36f20556d718f0590df0a07eaea 7529896 linux-headers-5.15.0-v4.2_5.15.0-v4.2-7_riscv64.deb
+ b056c8c826a67503b4c9aa127be4471852d10183 9977400 linux-image-5.15.0-v4.2_5.15.0-v4.2-7_riscv64.deb
+ 9ad0fee12389255ebd2e8a0a280d8371d3424f7d 1160800 linux-libc-dev_5.15.0-v4.2-7_riscv64.deb
+ 548f7a96597d0ed73c7b69c514ee71c494166f27 5295 linux-upstream_5.15.0-v4.2-7_riscv64.buildinfo
+Checksums-Sha256:
+ 71dc428ab1440a59d5af4d970684747537945895fbe5d1baa214e5833a3ace88 7529896 linux-headers-5.15.0-v4.2_5.15.0-v4.2-7_riscv64.deb
+ f56bb405c0f73190bb19ee7fcdebc0d9c72f21bc31dc2ae97145ecb855661936 9977400 linux-image-5.15.0-v4.2_5.15.0-v4.2-7_riscv64.deb
+ 4fc0a0b24f6a38fe0632e8b1c7821caf31879756423a48e45bf8e86e770a94d0 1160800 linux-libc-dev_5.15.0-v4.2-7_riscv64.deb
+ 372565dcefedb01a0ae9b9c6885fbdc55bf0d5690b893d95dc7cf84d61e97ab1 5295 linux-upstream_5.15.0-v4.2-7_riscv64.buildinfo
+Files:
+ eaa58ae130c3c1a6e08c992455605801 7529896 kernel optional linux-headers-5.15.0-v4.2_5.15.0-v4.2-7_riscv64.deb
+ 99803c191583633da3fb8aaa5de6d2fa 9977400 kernel optional linux-image-5.15.0-v4.2_5.15.0-v4.2-7_riscv64.deb
+ ca316cc37534ab6b0af1e8fbfa23e938 1160800 devel optional linux-libc-dev_5.15.0-v4.2-7_riscv64.deb
+ 684528b368b80da4fabc22f26f0525e2 5295 kernel optional linux-upstream_5.15.0-v4.2-7_riscv64.buildinfo
