@@ -1,3 +1,4 @@
+kernel/fs/fat/vfat.ko
 kernel/drivers/clk/starfive/clk-starfive-jh7100-audio.ko
 kernel/drivers/media/tuners/e4000.ko
 kernel/drivers/media/tuners/fc0011.ko
